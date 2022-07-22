@@ -1,4 +1,42 @@
 /*******************************
+    UTILITY
+*******************************/
+
+.my_grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+
+@media (min-width: 576px) {
+    .my_grid {
+        grid-template-columns: repeat(7, 1fr);
+    }
+}
+
+.cell {
+    color: black;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: cornflowerblue;
+}
+
+.fizz {
+    background-color: aquamarine;
+}
+
+.buzz {
+    background-color: gold;
+}
+
+.fizzbuzz {
+    background-color: deeppink;
+}
+
+/*******************************
     DEBUG
 *******************************/
 
