@@ -14,6 +14,12 @@
     }
 }
 
+@media (min-width: 768px) {
+    .my_grid {
+        grid-template-columns: repeat(10, 1fr);
+    }
+}
+
 .cell {
     color: black;
     aspect-ratio: 1;
