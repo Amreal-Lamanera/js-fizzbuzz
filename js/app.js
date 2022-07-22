@@ -7,19 +7,19 @@ for (let i = 0; i < 100; i++) {
         // - allora stampa FizzBuzz
         console.log("FizzBuzz")
     } else {
+        // - ALTRIMENTI SE (i + 1) % 3 === 0
         if (((i + 1) % 3) === 0) {
+            // - allora stampa Fizz
             console.log("Fizz")
         } else {
+            // - ALTRIMENTI SE (i + 1) % 5 === 0
             if (((i + 1) % 5) === 0) {
+                // -allora stampa Buzz
                 console.log("Buzz");
             } else {
+                // -ALTRIMENTI stampa i + 1
                 console.log(i + 1);
             }
         }
     }
 }
-// - ALTRIMENTI SE (i + 1) % 3 === 0
-// - allora stampa Fizz
-// - ALTRIMENTI SE (i + 1) % 5 === 0
-// -allora stampa Buzz
-// -ALTRIMENTI stampa i + 1
