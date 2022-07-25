@@ -40,7 +40,7 @@ const myGrid = document.querySelector('div[class = "my_grid"]');
 // - PER OGNI i che va da 0 a 100
 for (let i = 0; i < 100; i++) {
     const myCell = document.createElement('div');
-    myCell.classList.add('my_col', 'cell');
+    myCell.classList.add('cell');
 
     // - SE (i + 1) % 3 AND (i + 1) % 5 === 0 => (i + 1) % 15 === 0
     if (((i + 1) % 15) === 0) {
@@ -66,7 +66,6 @@ for (let i = 0; i < 100; i++) {
                 // -ALTRIMENTI stampa i + 1
                 console.log(i + 1);
                 myCell.append(i + 1);
-                myCell.classList.add(i + 1);
             }
         }
     }
